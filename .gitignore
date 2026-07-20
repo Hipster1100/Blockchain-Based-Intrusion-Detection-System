@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Flask / App
+instance/
+*.db-shm
+*.db-wal
+
+# Databases (runtime data, not for version control)
+*.db
+*.db-shm
+*.db-wal
+
+# Temp / query files
+query
+
+# Logs
+*.log
+sqli_alerts.log
+
+# Large data files
+intrusions_pretty.json
+intrusions_raw.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
